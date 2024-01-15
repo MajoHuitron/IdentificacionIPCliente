@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tabla de Geolocalización</title>
+  <!-- Enlaces a Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Enlace a la fuente Montserrat (asegúrate de tener acceso a Internet) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    th, td {
+      text-align: center;
+    }
+    th {
+      background-color: #ffb7c2;
+      color: white;
+    }
+    /* Estilo para el título */
+    h1 {
+      text-align: center;
+      color: #ffb7c2;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <!-- Título centrado -->
+    <h1>Información de IP del Cliente</h1>
+
+    <!-- Tabla con Bootstrap -->
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">País</th>
+          <th scope="col">Continente</th>
+          <th scope="col">Zona Horaria</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Filas con valores de ejemplo -->
+        <tr>
+          <td>192.168.1.1</td>
+          <td>EE. UU.</td>
+          <td>América del Norte</td>
+          <td>UTC-5</td>
+        </tr>
+        <tr>
+          <td>10.0.0.1</td>
+          <td>Canadá</td>
+          <td>América del Norte</td>
+          <td>UTC-4</td>
+        </tr>
+        <!-- Puedes agregar más filas según sea necesario -->
+      </tbody>
+    </table>
+
+  </div>
+
+  <!-- Enlaces a Bootstrap JS y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
